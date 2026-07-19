@@ -5,3 +5,5 @@ Selected website and registry files are processed locally through browser APIs a
 Refreshing or closing the page clears in-memory state. Downloads occur only after an explicit user action. The safe ZIP excludes the original registry document and includes only a limited summary without full registry values.
 
 Precomputed demos contain small audit summaries only. They do not embed production pages, client photographs, complete machine-readable customer files, registry documents or personal data.
+
+Demonstration names and domains are synthetic or anonymized and do not represent a current audit of a named business.

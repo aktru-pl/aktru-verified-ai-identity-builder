@@ -1,7 +1,7 @@
 {
   "name": "aktru-verified-ai-identity-builder",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Local-first evidence tracing and machine-readable company identity builder for websites and registry data.",
   "author": "AKTRU Sp. z o.o.",
   "license": "MIT",

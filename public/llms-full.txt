@@ -1,0 +1,26 @@
+# AKTRU Verified AI Identity Builder
+
+## Purpose
+
+AKTRU Verified AI Identity Builder is a local-first tool that audits identity consistency across a local website snapshot, HTML metadata, JSON-LD, linked resources and seven optional machine-readable files. A user may also supply a registry JSON document for field comparison.
+
+## Evidence boundaries
+
+The evidence classes are:
+
+1. Supported by supplied registry document.
+2. Declared by website owner.
+3. Inferred from technical content.
+4. Unresolved.
+
+The tool confirms only that a value is present in the registry document supplied by the user. It does not independently verify the document’s origin, authenticity or current validity. A SHA-256 hash identifies the exact analyzed bytes and is not proof of authenticity.
+
+## Processing and outputs
+
+Processing takes place locally in the browser. There is no backend, account, database, telemetry or external analysis API. Generated reports and seven-file bundle proposals are deterministic and require explicit human review. Input files are not modified.
+
+## Limitations
+
+The Technical Consistency Score is an AKTRU diagnostic method, not an external standard or certificate. The application does not certify a company, replace an official registry, guarantee indexing, visibility or ranking, or establish the truth of a business claim.
+
+Source, privacy, security, limitations and audit methodology: https://github.com/aktru-pl/aktru-verified-ai-identity-builder

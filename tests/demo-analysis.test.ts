@@ -1,9 +1,9 @@
 import{describe,expect,it}from'vitest';
 
 const demos=[
- {name:'grand-sal-pl',files:75,canonical:'https://grandsal.polturizm.pl/',lang:'pl',score:86,information:0,warnings:6,errors:1,machineMissing:0},
- {name:'grand-sal-en',files:73,canonical:'https://grandsal.polturizm.eu/',lang:'en',score:86,information:0,warnings:6,errors:0,machineMissing:0},
- {name:'mebin-de',files:43,canonical:'https://mebin.polfirms.de/',lang:'de',score:80,information:1,warnings:7,errors:0,machineMissing:7}
+ {name:'hospitality-demo-pl',files:75,canonical:'https://hospitality-pl.example/',lang:'pl',score:86,information:0,warnings:6,errors:1,machineMissing:0},
+ {name:'hospitality-demo-en',files:73,canonical:'https://hospitality-en.example/',lang:'en',score:86,information:0,warnings:6,errors:0,machineMissing:0},
+ {name:'furniture-demo-de',files:43,canonical:'https://furniture-de.example/',lang:'de',score:80,information:1,warnings:7,errors:0,machineMissing:7}
 ];
 
 describe('three public precomputed demonstrations',()=>{
@@ -12,6 +12,6 @@ describe('three public precomputed demonstrations',()=>{
   expect(demo.score).toBeGreaterThanOrEqual(0);
   expect(demo.score).toBeLessThanOrEqual(100);
   expect(new URL(demo.canonical).protocol).toBe('https:');
-  expect(demo.machineMissing).toBe(demo.name==='mebin-de'?7:0);
+  expect(demo.machineMissing).toBe(demo.name==='furniture-demo-de'?7:0);
  });
 });
