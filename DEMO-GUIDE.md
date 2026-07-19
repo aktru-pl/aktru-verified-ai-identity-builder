@@ -1,6 +1,6 @@
 # Demo guide
 
-Run `npm install` and `npm run dev`. No local project snapshot is required for the public demo.
+Open the [live demo](https://aktru-pl.github.io/aktru-verified-ai-identity-builder/) or run `npm ci` and `npm run dev`. No local project snapshot is required for the public demo.
 
 ## Grand Sal PL
 

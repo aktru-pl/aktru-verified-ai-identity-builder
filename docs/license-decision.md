@@ -8,7 +8,7 @@ Copyright notice:
 
 `Copyright (c) 2026 AKTRU Sp. z o.o.`
 
-The complete standard license text is included in `LICENSE`.
+The complete standard license text is included in the repository-root `LICENSE` file. This decision record is deliberately stored under `docs/` so automated repository license detection sees only the standard MIT license file as the project license.
 
 ## Rationale
 
