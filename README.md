@@ -4,6 +4,10 @@ Traceable company identity from website and registry evidence.
 
 AKTRU audits how a company is represented across a website, structured data, machine-readable files and registry evidence. It separates declared, inferred, unresolved and registry-supported information, then prepares a human-reviewed machine-readable identity bundle without modifying source files.
 
+## Live demo
+
+Use the public demonstration at [aktru-pl.github.io/aktru-verified-ai-identity-builder](https://aktru-pl.github.io/aktru-verified-ai-identity-builder/). The demo runs entirely in the browser; selected files are not uploaded.
+
 ## Problem
 
 One company can be represented differently across local domains, metadata, JSON-LD, machine-readable files and registries. People, search systems and AI tools then struggle to identify the entity and the origin of each claim.
@@ -26,7 +30,7 @@ Static React, TypeScript and Vite application. Browser File APIs read selected e
 ## Install and run
 
 ```text
-npm install
+npm ci
 npm run dev
 ```
 
@@ -57,4 +61,4 @@ Built with Codex during OpenAI Build Week 2026. The project owner defined goals,
 
 ## License
 
-Released under the MIT License. See `LICENSE`.
+Released under the MIT License. See `LICENSE` and `docs/license-decision.md`.

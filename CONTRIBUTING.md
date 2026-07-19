@@ -1,6 +1,6 @@
 # Contributing
 
-1. Install dependencies with `npm install`.
+1. Install dependencies with `npm ci`.
 2. Create a focused branch.
 3. Implement a scoped change and preserve source classifications.
 4. Run `npm run typecheck`, `npm test`, `npm run build` and `npm audit`.
