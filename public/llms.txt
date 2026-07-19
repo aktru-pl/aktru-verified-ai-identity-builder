@@ -1,0 +1,10 @@
+# AKTRU Verified AI Identity Builder
+
+AKTRU Verified AI Identity Builder is a local-first browser tool for auditing company identity signals across website content, structured data, machine-readable files and an optional registry document supplied by the user.
+
+- Files are processed locally in the browser and are not uploaded.
+- Evidence is classified as supported by a supplied registry document, declared by the website owner, inferred from technical content or unresolved.
+- Every proposed identity field requires human review.
+- The tool does not authenticate a supplied registry document, certify a company, replace official registries or guarantee indexing, visibility or ranking.
+
+Project and documentation: https://github.com/aktru-pl/aktru-verified-ai-identity-builder

@@ -2,7 +2,7 @@
 
 Traceable company identity from website and registry evidence.
 
-AKTRU audits how a company is represented across a website, structured data, machine-readable files and registry evidence. It separates declared, inferred, unresolved and registry-supported information, then prepares a human-reviewed machine-readable identity bundle without modifying source files.
+AKTRU audits how a company is represented across a website, structured data, machine-readable files and a registry document supplied by the user. It separates declared, inferred, unresolved and supplied-document-supported information, then prepares a human-reviewed machine-readable identity bundle without modifying source files.
 
 ## Live demo
 
@@ -21,7 +21,7 @@ One company can be represented differently across local domains, metadata, JSON-
 - manual field approval;
 - deterministic seven-file proposals;
 - safe reports, before/after manifest and ZIP export;
-- three precomputed demonstrations.
+- three synthetic or anonymized precomputed demonstrations.
 
 ## Architecture
 
@@ -45,15 +45,15 @@ npm audit
 
 ## Demonstrations
 
-- Grand Sal PL: complete seven-file bundle and strict JSON BOM issue.
-- Grand Sal EN: multilingual consistency and complete bundle.
-- MEBIN DE: missing machine-readable bundle without treating the site as unavailable.
+- Hospitality Demo PL: complete seven-file bundle and strict JSON BOM issue.
+- Hospitality Demo EN: multilingual consistency and complete bundle.
+- Furniture Demo DE: missing machine-readable bundle without treating the site as unavailable.
 
-The demos are precomputed summaries. No production pages, photographs or registry documents are embedded.
+The demos are synthetic or anonymized precomputed summaries and do not represent a current audit of a named business. No production pages, photographs or registry documents are embedded.
 
 ## Privacy and limitations
 
-Files remain in the browser session and are not uploaded. Registry evidence supports only values present in the supplied document. AKTRU is not a certificate, does not replace registries or human review, and does not guarantee indexing, visibility or ranking. See `PRIVACY.md`, `SECURITY.md` and `LIMITATIONS.md`.
+Files remain in the browser session and are not uploaded. A supplied registry document supports only values present in that document; the tool does not independently verify its origin, authenticity or current validity. A hash identifies the exact analyzed bytes, not authenticity. AKTRU is not a certificate, does not replace registries or human review, and does not guarantee indexing, visibility or ranking. See `PRIVACY.md`, `SECURITY.md`, `LIMITATIONS.md` and `docs/audit-methodology.md`.
 
 ## Codex and Build Week
 

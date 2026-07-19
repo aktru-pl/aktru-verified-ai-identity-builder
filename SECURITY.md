@@ -4,6 +4,8 @@ AKTRU is a static browser application. Processing is local; there is no backend,
 
 The exported registry summary omits full registry values and the original document. Fixtures must never contain real registry documents or personal data.
 
+The tool does not independently authenticate a supplied registry document. Its SHA-256 hash identifies the exact analyzed bytes only and must not be interpreted as proof of origin, authenticity or current validity.
+
 To report a vulnerability privately, contact:
 
 [aktru@aktru.pl](mailto:aktru@aktru.pl)

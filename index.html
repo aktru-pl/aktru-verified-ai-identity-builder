@@ -1,1 +1,93 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Local-first technical identity consistency demonstrator."><meta name="theme-color" content="#0b2c25"><title>AKTRU Verified AI Identity Builder</title></head><body><a class="skip-link" href="#main-content">Skip to main content</a><div id="root"></div><script type="module" src="/src/main.tsx"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AKTRU Verified AI Identity Builder</title>
+  <meta name="description" content="Local-first browser tool for auditing company identity signals across website content, structured data, machine-readable files and a user-supplied registry document.">
+  <meta name="theme-color" content="#0b2c25">
+  <link rel="canonical" href="https://aktru-pl.github.io/aktru-verified-ai-identity-builder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AKTRU Verified AI Identity Builder">
+  <meta property="og:description" content="Local-first auditing of website identity signals and user-supplied registry evidence, with human-reviewed deterministic proposals.">
+  <meta property="og:url" content="https://aktru-pl.github.io/aktru-verified-ai-identity-builder/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AKTRU Verified AI Identity Builder">
+  <meta name="twitter:description" content="Local-first technical identity auditing with provenance-aware evidence classes and explicit limitations.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://aktru-pl.github.io/aktru-verified-ai-identity-builder/#software",
+        "name": "AKTRU Verified AI Identity Builder",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any modern web browser",
+        "url": "https://aktru-pl.github.io/aktru-verified-ai-identity-builder/",
+        "isAccessibleForFree": true,
+        "description": "Local-first browser tool for auditing company identity signals and preparing human-reviewed machine-readable proposals."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://aktru-pl.github.io/aktru-verified-ai-identity-builder/#website",
+        "name": "AKTRU Verified AI Identity Builder",
+        "url": "https://aktru-pl.github.io/aktru-verified-ai-identity-builder/"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://aktru-pl.github.io/aktru-verified-ai-identity-builder/#webpage",
+        "name": "AKTRU Verified AI Identity Builder",
+        "url": "https://aktru-pl.github.io/aktru-verified-ai-identity-builder/",
+        "isPartOf": {"@id": "https://aktru-pl.github.io/aktru-verified-ai-identity-builder/#website"},
+        "about": {"@id": "https://aktru-pl.github.io/aktru-verified-ai-identity-builder/#software"}
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="root">
+    <header>
+      <div class="brand">AKTRU <span>Verified AI Identity Builder</span></div>
+      <h1>Traceable company identity from website and supplied evidence.</h1>
+      <p>AKTRU Verified AI Identity Builder audits how a company is represented across website content, metadata, structured data and machine-readable files. An optional registry document supplied by the user can support comparisons, but the tool does not authenticate that document.</p>
+      <div class="notices">
+        <div class="privacy">Selected files are processed locally in the browser and are not uploaded.</div>
+        <div class="disclaimer">Technical analysis only — this tool is not a certificate and does not replace an official registry or human review.</div>
+      </div>
+    </header>
+    <main id="main-content">
+      <section>
+        <h2>Evidence classes</h2>
+        <div class="source-classes">
+          <article><h3>Supported by supplied registry document</h3><p>The value is present in a registry document supplied by the user.</p></article>
+          <article><h3>Declared by website owner</h3><p>The value is explicitly present in website-controlled content.</p></article>
+          <article><h3>Inferred from technical content</h3><p>The value or state is derived from markup, URLs or technical relationships.</p></article>
+          <article><h3>Unresolved</h3><p>The available evidence is insufficient for a safer classification.</p></article>
+        </div>
+        <p class="separation">The tool confirms only that a value is present in the registry document supplied by the user. It does not independently verify the document’s origin, authenticity or current validity. A file hash identifies the exact analyzed bytes; it does not prove authenticity.</p>
+      </section>
+      <section>
+        <h2>Basic workflow</h2>
+        <ol class="steps">
+          <li><strong>Select evidence</strong><span>Choose a local website snapshot and optionally a registry JSON document.</span></li>
+          <li><strong>Audit identity signals</strong><span>Inspect metadata, structured data, resources and machine-readable files.</span></li>
+          <li><strong>Compare sources</strong><span>Keep technical consistency separate from supplied registry evidence coverage.</span></li>
+          <li><strong>Review fields</strong><span>A human explicitly approves every value included in a proposal.</span></li>
+          <li><strong>Export proposals</strong><span>Download reports and deterministic files without modifying the inputs.</span></li>
+        </ol>
+      </section>
+      <section>
+        <h2>Scope and documentation</h2>
+        <p>The application has no backend, user account, database, telemetry or external analysis API. It does not certify a company, validate a registry document’s origin, guarantee indexing or promise visibility or ranking.</p>
+        <p><a href="https://github.com/aktru-pl/aktru-verified-ai-identity-builder">Source repository</a> · <a href="https://github.com/aktru-pl/aktru-verified-ai-identity-builder/blob/main/PRIVACY.md">Privacy</a> · <a href="https://github.com/aktru-pl/aktru-verified-ai-identity-builder/blob/main/SECURITY.md">Security</a> · <a href="https://github.com/aktru-pl/aktru-verified-ai-identity-builder/blob/main/LIMITATIONS.md">Limitations</a></p>
+        <p><strong>Interactive analysis, demonstrations and downloads require JavaScript.</strong></p>
+      </section>
+    </main>
+  </div>
+  <noscript><p class="noscript">JavaScript is disabled. The product overview and limitations above remain available, but interactive file analysis requires JavaScript.</p></noscript>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
